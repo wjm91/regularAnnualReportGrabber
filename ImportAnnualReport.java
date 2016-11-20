@@ -16,7 +16,7 @@ public class ImportAnnualReport implements Runnable {
 	
 	public void run() {
 		
-		String csvFile = "/Users/williammurphy/Desktop/epicCodes.csv";
+		String csvFile = "/Users/Desktop/epicCodes.csv";
         String line = "";
         String cvsSplitBy = ",";
         
@@ -45,7 +45,7 @@ public class ImportAnnualReport implements Runnable {
             	
             	for(int t=0; t<ticker.size(); t++){
 
-                String fileName = "/Users/williammurphy/Desktop/newReports/" + ticker.get(t) + "_" + year + ".pdf";
+                String fileName = "/Users/Desktop/newReports/" + ticker.get(t) + "_" + year + ".pdf";
     			
     			URL link = null;
     			try {
